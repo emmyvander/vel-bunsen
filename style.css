@@ -1,0 +1,58 @@
+html, body {
+  background-color: #222222;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden
+}
+
+@font-face {
+  font-family: Header;
+  src: url(fonts/ABCMonumentGrotesk-Light-Trial.otf);
+}
+
+@font-face {
+  font-family: Italic;
+  src: url(fonts/ABCMonumentGrotesk-LightItalic-Trial.otf);
+}
+
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 75%;
+  max-width: 450px;
+}
+
+h1 {
+  font-family: Header, sans-serif;
+  color: #F1F1F1;
+  padding-bottom: 30px;
+  font-size: 24pt;
+  line-height: 160%;
+
+}
+
+h2 {
+  font-family: Header, sans-serif;
+  color: #F1F1F1;
+  font-size: 14pt;
+  line-height: 160%;
+}
+
+a {
+  color: #F5FAB8;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: Italic, sans-serif;
+}
